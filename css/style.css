@@ -40,6 +40,7 @@ section {
 /* NAVIGATION */
 nav {
   background: transparent;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
 }
 nav ul {
   list-style: none;
@@ -130,6 +131,7 @@ nav.fill ul li a:hover:after {
   border-radius: 50%;
   border: 4px dashed #7c1c2c;
   transition: transform 0.2s; /* Animation */
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.5);
 }
 .me:hover {
   transform: scale(1.1);
@@ -138,7 +140,7 @@ nav.fill ul li a:hover:after {
 /* CSS */
 .button-52 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 1px;
   padding: 13px 15px 13px;
   outline: 0;
