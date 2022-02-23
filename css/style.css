@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #daa89b !important;
-  text-align: center !important;
+  /* text-align: center !important; */
 }
 
 h1 {
@@ -15,14 +15,12 @@ h1 {
   color: #7c1c2c;
   font-size: 62px;
 }
-
-h2 {
+h5 {
+  color: #9d7b78;
+}
+h6 {
+  background-color: #b67278;
   text-align: center;
-  font-size: 30px;
-  margin: 0;
-  font-weight: 300;
-  color: inherit;
-  padding: 50px;
 }
 p {
   font-size: 20px;
@@ -34,12 +32,65 @@ p {
 }
 
 section {
-  margin-top: 80px;
+  margin-top: 150px;
+  /* height: 100vh; */
 }
+
+/* Section */
+/* section {
+  padding: 60px 0;
+} */
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #7c1c2c;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title span {
+  position: absolute;
+  top: 30px;
+  color: #7c1c2c5e;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .section-title span {
+    font-size: 38px;
+  }
+}
+/* Section */
 
 /* NAVIGATION */
 nav {
-  background: transparent;
+  background: #daa89bea;
   box-shadow: 0 0 22px rgba(0, 0, 0, 0.1);
 }
 nav ul {
@@ -175,4 +226,13 @@ nav.fill ul li a:hover:after {
   .button-52 {
     padding: 13px 50px 13px;
   }
+}
+
+.tasks {
+  font-size: 16px;
+}
+.rounded {
+  border-radius: 50%;
+  height: 80px;
+  width: auto;
 }
